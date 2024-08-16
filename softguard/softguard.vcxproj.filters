@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="auth.cpp">
+      <Filter>auth</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="auth">
+      <UniqueIdentifier>{91262fe1-e2f5-45de-9acc-63a23f15d0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection">
+      <UniqueIdentifier>{a56b1fb2-e18b-4002-9d07-dfb07c0d3a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection\obfuscation">
+      <UniqueIdentifier>{d3516625-7cc2-4381-a3f3-59b5bac1e36a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection\obfuscation\string">
+      <UniqueIdentifier>{c46a94ba-e2aa-4e39-94f9-7700df03c086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection\obfuscation\function">
+      <UniqueIdentifier>{44686a0a-37f1-41f2-92d0-837d95a04cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection\junkcode">
+      <UniqueIdentifier>{6d548381-a33f-4ecb-af89-43dd5cabf896}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auth.h">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="skcrypt.h">
+      <Filter>protection\obfuscation\string</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.hpp">
+      <Filter>protection\obfuscation\function</Filter>
+    </ClInclude>
+    <ClInclude Include="junkcode.hpp" />
+  </ItemGroup>
+</Project>
